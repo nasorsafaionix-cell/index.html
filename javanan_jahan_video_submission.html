@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="جوانان جهان؛ یک سیاره، یک صدا. ویدئوها و پیام‌های جوانان برای صلح، عدالت، حقوق بشر و آینده زمین.">
+<title>جوانان جهان؛ یک سیاره، یک صدا</title>
+<style>
+:root{--bg:#071426;--panel:#10233c;--text:#f3f7ff;--muted:#c2d0e3;--teal:#45d6c5;--gold:#ffd166}*{box-sizing:border-box}
+body{margin:0;font-family:Tahoma,Arial,sans-serif;background:linear-gradient(150deg,#071426,#0b2940);color:var(--text);line-height:1.9}
+header{text-align:center;padding:42px 18px;background:radial-gradient(circle at top,#164b63,transparent 65%)}
+h1{font-size:clamp(1.8rem,5vw,3rem);margin:0 0 10px;color:var(--teal)}header p{max-width:760px;margin:auto;color:var(--muted)}
+main{max-width:1000px;margin:auto;padding:20px}section,.card{background:rgba(16,35,60,.92);border:1px solid #254563;border-radius:18px;padding:22px;margin:18px 0}
+h2{color:var(--gold);margin-top:0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}.card h3{margin-top:0;color:var(--teal)}
+label{display:block;margin:10px 0 5px;font-weight:bold}input{width:100%;padding:12px;border-radius:10px;border:1px solid #52708d;background:#071426;color:white;font:inherit}
+button,.button{display:inline-block;background:var(--teal);color:#05212a;border:0;border-radius:10px;padding:11px 17px;font:inherit;font-weight:bold;text-decoration:none;cursor:pointer;margin-top:12px}
+.note{color:var(--muted);font-size:.95rem}.video-box{position:relative;width:100%;aspect-ratio:16/9;background:#06101d;border-radius:14px;overflow:hidden}.video-box iframe{width:100%;height:100%;border:0}
+footer{text-align:center;color:var(--muted);padding:28px 15px}.pill{display:inline-block;color:#071426;background:var(--gold);padding:3px 10px;border-radius:30px;font-size:.85rem;font-weight:bold}
+</style></head>
+<body>
+<header><span class="pill">🌍 یک سیاره، یک صدا</span><h1>جوانان جهان؛ یک سیاره، یک صدا</h1>
+<p>از کشورهای گوناگون، با زبان‌ها و فرهنگ‌های متفاوت، در یک خانهٔ مشترک زندگی می‌کنیم: زمین. با آگاهی‌رسانی دقیق، همکاری جهانی و اقدام مسالمت‌آمیز برای آینده‌ای بهتر تلاش می‌کنیم.</p></header>
+<main>
+<section><h2>🎬 تماشای ویدئوهای جوانان</h2><p>پیوند عمومی یوتیوب را وارد کن تا ویدئو در همین صفحه نمایش داده شود.</p>
+<label for="youtubeLink">پیوند ویدئوی یوتیوب:</label><input id="youtubeLink" type="url" placeholder="https://www.youtube.com/watch?v=...">
+<button onclick="showVideo()">نمایش ویدئو</button><p id="videoMessage" class="note">برای نمایش، پیوند یوتیوب را وارد کن.</p><div class="video-box" id="videoBox" style="display:none"></div>
+<p class="note">این ابزار ویدئو را فقط در مرورگر همان بازدیدکننده نمایش می‌دهد. برای نمایش دائمی یک ویدئو به همه، باید پیوندش را در فایل سایت اضافه کنیم.</p></section>
+<section><h2>📨 فرستادن ویدئو برای انتشار</h2><p>جوانان می‌توانند پیوند ویدئوی خود را برای بررسی و انتشار پیشنهاد کنند. اطلاعات خصوصی مانند نشانی خانه، شماره تلفن یا اطلاعات مدرسه را منتشر نکنید.</p>
+<div class="grid"><div class="card"><h3>روش ساده و رایگان</h3><p>یک فرم رایگان در Google Forms می‌سازیم تا فرستنده موضوع و پیوند ویدئو را وارد کند. مدیر سایت پیش از انتشار، محتوا را بررسی می‌کند.</p>
+<p class="note">فرم هنوز به سایت وصل نشده است. پس از ساخت فرم، باید پیوند آن را به این بخش اضافه کنیم.</p><a class="button" href="https://forms.google.com/" target="_blank" rel="noopener noreferrer">باز کردن Google Forms</a></div>
+<div class="card"><h3>قواعد انتشار</h3><ul><li>فقط ویدئوهایی را بفرستید که خودتان ساخته‌اید یا اجازهٔ انتشارشان را دارید.</li><li>موضوع ویدئو صلح، عدالت، حقوق بشر یا محیط زیست باشد.</li><li>اطلاعات خصوصی خود یا دیگران را منتشر نکنید.</li><li>ارسال ویدئو به معنی انتشار خودکار نیست؛ محتوا پیش از انتشار بررسی می‌شود.</li></ul></div></div></section>
+<section><h2>🤝 اصول ما</h2><div class="grid"><div class="card"><h3>🕊️ صلح</h3><p>اختلاف‌ها را با گفت‌وگو و روش‌های مسالمت‌آمیز دنبال می‌کنیم.</p></div><div class="card"><h3>⚖️ عدالت</h3><p>اطلاعات را بررسی می‌کنیم و به کرامت همهٔ انسان‌ها احترام می‌گذاریم.</p></div><div class="card"><h3>🌱 آیندهٔ زمین</h3><p>برای حفاظت از محیط زیست و نسل‌های آینده آگاهی‌رسانی می‌کنیم.</p></div></div></section>
+</main><footer>جوانان جهان؛ یک سیاره، یک صدا 🌐<br>برای صلح، عدالت، حقوق بشر و آیندهٔ زمین</footer>
+<script>
+function showVideo(){const raw=document.getElementById('youtubeLink').value.trim(),box=document.getElementById('videoBox'),msg=document.getElementById('videoMessage');let id='';
+try{const u=new URL(raw);if(u.hostname==='youtu.be')id=u.pathname.slice(1);else if(u.hostname.endsWith('youtube.com')){if(u.pathname==='/watch')id=u.searchParams.get('v')||'';else if(u.pathname.startsWith('/embed/'))id=u.pathname.split('/')[2]||'';else if(u.pathname.startsWith('/shorts/'))id=u.pathname.split('/')[2]||'';}}catch(e){}
+if(!/^[A-Za-z0-9_-]{6,}$/.test(id)){box.style.display='none';box.innerHTML='';msg.textContent='پیوند معتبر یوتیوب وارد نشده است. پیوند را بررسی کن.';return;}
+box.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'" title="ویدئوی یوتیوب" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';box.style.display='block';msg.textContent='اگر صاحب ویدئو نمایش آن را محدود کرده باشد، ممکن است پخش نشود.';}
+</script></body></html>
